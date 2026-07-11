@@ -71,6 +71,7 @@ form.reset();
 });
 
 const closeBtn = document.getElementById("closePopup");
+
 if (closeBtn) {
     closeBtn.onclick = function () {
         document.getElementById("successPopup").classList.remove("show");
@@ -78,8 +79,10 @@ if (closeBtn) {
 }
 
 const copyBtn = document.getElementById("copyReference");
+
 if (copyBtn) {
     copyBtn.onclick = function () {
+
         navigator.clipboard.writeText(
             document.getElementById("referenceId").textContent
         );
@@ -87,4 +90,3 @@ if (copyBtn) {
         this.textContent = "Copied ✓";
     };
 }
-
